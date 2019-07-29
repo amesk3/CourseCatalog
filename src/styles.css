@@ -1,0 +1,113 @@
+@import "~normalize.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0.5%;
+  border: 0.5%;
+  padding: 1%;
+}
+
+#root {
+  background-color: black;
+}
+
+body {
+  background-color: white;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
+
+#courseId {
+  background-color: white;
+}
+
+h1 {
+  font-size: 4em;
+  color: white;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 1.8em;
+  margin: 1%;
+  color: white;
+}
+
+h5 {
+  font-size: 1.5em;
+  margin: 0 auto;
+}
+
+h6 {
+  font-size: 1em;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 0.5em;
+}
+
+.card {
+  max-height: 16em;
+  min-height: 16em;
+  background-color: white;
+}
+
+.card-columns {
+  column-count: 3;
+}
+
+@media (max-width: 850px) {
+  .card-columns {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 350px) {
+  .card-columns {
+    column-count: 1;
+  }
+}
+
+.card-deck {
+  outline-color: black;
+  display: flex;
+  /* align-content: flex-start; */
+}
+
+.btn-outline-success {
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.btn-default {
+  background-color: rgb(4, 136, 85);
+  color: white;
+  border-color: white;
+  font-size: 30%;
+  text-align: center;
+}
+
+.card-img-top {
+  position: relative;
+  float: none;
+  width: 4em;
+  height: 4em;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.start {
+  display: flex;
+  justify-content: center;
+  margin: 0%;
+}
